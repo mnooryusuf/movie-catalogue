@@ -49,7 +49,7 @@ const FavoriteMovieArray = {
   },
 };
 
-xdescribe('Favorite Movie Array Contract Test Implementation', () => {
+describe('Favorite Movie Array Contract Test Implementation', () => {
   afterEach(() => favoriteMovies = []);
 
   itActsAsFavoriteMovieModel(FavoriteMovieArray);
